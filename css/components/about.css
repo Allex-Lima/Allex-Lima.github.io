@@ -1,0 +1,60 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+    /* meu css */
+    /* border: 1px solid red; */
+    /* text-align: justify; */
+}
+
+.about .about_left {
+    max-width: 40rem;
+    flex: 1;
+}
+
+.about .about_left p {
+    margin: 1rem 0 2rem;
+    /* meu css */
+    text-align: justify;
+}
+
+.about .about_left ul {
+    margin-left: -1.2rem;
+}
+
+.about .about_left ul li {
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+
+.about .about_left ul li a {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.about .about_right {
+    flex: 1;
+    max-width: 66rem;
+}
+
+.about .about_right p, li{
+    text-align: justify;
+}
+
+/* resposividade mobile 768px*/
+@media only screen and (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .about_left {
+        max-width: 66rem;
+        text-align: center;
+    }
+
+    .about .about_right {
+        text-align: center;
+    }
+}
