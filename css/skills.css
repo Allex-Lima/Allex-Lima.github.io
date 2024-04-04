@@ -1,0 +1,81 @@
+.skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    scroll-margin-top: 7rem;
+    color: white;
+    border: 1px solid white;
+    margin: 10rem 1rem 1rem 1rem;
+}
+
+
+
+.skills .skills_content h2 {
+    text-align: center;
+    font-size: 1.7rem;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    margin: 3rem 0 3rem 0;
+
+}
+
+.skills .skills_content .description {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.skills .skills_content h3 {
+    text-align: center;
+    padding: 4rem;
+}
+.skills .skills_content .container{
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+   
+}
+.skills .skills_content .container .image_container {
+    border: 1px solid white;
+    padding: 1rem;
+    text-align: center;
+   
+}
+
+.skills .skills_content .image_container img {
+    width: 150px;
+}
+
+.skills .skills_content .image_container figure figcaption {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.2em yellow;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .skills .skills_content h2 {
+        /* border: 1px solid white; */
+        /* text-align: center; */
+        font-size: 1.3rem;
+        text-shadow: 0.1em 0.1em 0.2em white;
+        /* margin: 3rem 0 3rem 0; */
+    
+    }
+    
+
+    .skills .skills_content .description {
+        /* border: 1px solid white; */
+        margin: 0.5rem;
+        text-align: justify;
+        font-size: 1rem;
+        
+    }
+    
+}

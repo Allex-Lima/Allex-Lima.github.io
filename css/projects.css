@@ -1,0 +1,111 @@
+.projects {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    gap: 4rem;
+    scroll-margin-top: 7rem;
+    color: white;
+    border: 1px solid white;
+    margin: 10rem 1rem 1rem 1rem;
+}
+
+.projects .projects_content {
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.projects .projects_content .projects_title {
+    font-size: 1.7rem;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    margin-top: 3rem;
+}
+
+.projects .projects_content .projects_desc {
+    font-size: 1.1rem;
+    margin-top: 3rem;
+}
+
+.projects .projects_highlights .flex-direction {
+    /* border: 1px solid white; */
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.projects .projects_highlights .flex-direction .project_one {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* width: 26%; */
+    padding: 1rem;
+}
+
+.projects .projects_highlights .flex-direction .project_one img {
+    border-radius: 20px;
+    box-shadow: 0.1em 0.1em 0.5em white;
+}
+
+.projects .projects_highlights .flex-direction .project_one figure figcaption a {
+    text-decoration: none;
+    color: white;
+}
+
+.projects .projects_highlights .flex-direction .project_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* width: 60%; */
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+.projects .projects_highlights .two_reverse {
+    flex-direction: row-reverse;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 800px) {
+
+    .projects .projects_highlights .flex-direction {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        border-bottom: 1px solid white;
+    }
+
+    .projects .projects_content .projects_desc {
+        font-size: 1rem;
+        margin-top: 3rem;
+        line-height: 2rem;
+    }
+    
+
+    .projects .projects_highlights .flex-direction .project_one figure img {
+
+        width: 200px;
+    }
+
+    .projects .projects_highlights .flex-direction .project_one {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 26%;
+        padding: 1rem;
+        
+    }
+
+    .projects .projects_highlights .flex-direction .project_info h3 {
+        font-size: 1rem;
+        font-weight: bold;
+        text-shadow: 0.1em 0.1em 0.2em yellow;
+    }
+
+    .projects .projects_highlights .flex-direction .project_info p {
+        font-size: 0.9rem;
+        text-align: justify;
+    } 
+}
