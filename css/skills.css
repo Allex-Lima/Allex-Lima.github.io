@@ -72,6 +72,7 @@
 
     .skills .skills_content .description {
         /* border: 1px solid white; */
+        width: 85%;
         margin: 0.5rem;
         text-align: justify;
         font-size: 1rem;

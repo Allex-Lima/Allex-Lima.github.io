@@ -1,0 +1,98 @@
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    scroll-margin-top: 7rem;
+    color: white;
+    border: 1px solid white;
+    margin: 10rem 1rem 1rem 1rem;
+}
+
+.contact-content {
+    /* background-color: red; */
+    margin: auto;
+}
+
+.contact-content .title-text span {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact-content .title-text .one {
+    /* background-color: aliceblue; */
+    font-size: 1.8rem;
+    margin: 2rem;
+
+}
+
+.contact-content .title-text .two {
+    font-size: 1.1rem;
+    margin: 2rem;
+
+}
+
+.contact-content .contact-info span {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.contact-content .contact-info .whatsapp img{
+    width: 40px;
+}
+
+.contact-content .contact-info .whatsapp {
+    display: flex;
+    align-items: center;
+}
+
+.contact-content .contact-info .whatsapp a{
+    margin-right: 1rem;
+}
+.contact-content .icons a img  {
+    width: 35px;
+}
+
+.contact-content .icons  {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-content .icons  a {
+    margin-right: 2rem;
+}
+
+.contact-content .copy {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 2rem 0;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .contact-content .title-text span {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact-content .title-text .two {
+        text-align: justify;
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .contact-content .contact-info .whatsapp {
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+
+    }
+
+    .contact-content .copy {
+        text-align: center;
+    }
+}
