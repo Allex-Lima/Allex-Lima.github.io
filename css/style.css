@@ -1,5 +1,6 @@
 @import './global.css';
-@import './navbar.css';
+/* @import './navbar.css'; */
+@import './navbar_bootstrap.css';
 @import './header.css';
 @import './about.css';
 @import './skills.css';

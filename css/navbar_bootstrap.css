@@ -1,0 +1,198 @@
+/* FOCUS */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: orange;
+    text-shadow: 0.1em 0.1em 0.2em white;
+}
+
+.navbar-brand:hover {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 0.5em 0.5em 0.2em orange;
+}
+/* AND FOCUS */
+
+
+.navbar {
+    background: rgba(41, 63, 85, 0.5);
+}
+
+.nav-item {
+    background: rgba(200, 165, 233, 0.158);
+    border-radius: 10px;
+    margin-right: .5rem;
+}
+.nav-item:hover {
+    background: rgb(0, 255, 149);
+    transition: .8s;
+}
+
+.active {
+    color: white;
+    font-weight: bold;
+
+}
+
+/* menu */
+.nav-link,
+.nav-link.nav-link.active {
+    color: orange;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.nav-link:hover,
+.nav-link.nav-link.active:hover {
+    color: white;
+}
+/* and menu */
+
+
+.navbar-toggler {
+    background: white;
+}
+
+.navbar-toggler:focus,
+btn-close:focus {
+    background: orange;
+}
+
+
+.offcanvas-title {
+    color: orange;
+    font-family: Cambria;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.2em orange;
+}
+
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: 0;
+    height: 2px;
+    background-color: rgba(138, 144, 202, 0.24);
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before,
+.nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+}
+
+/* ALM box */
+.offcanvas-header {
+    background: #3e467033;
+    border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* FOCUS */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: orange;
+    text-shadow: 0.1em 0.1em 0.2em white;
+}
+
+.navbar-brand:hover {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 0.5em 0.5em 0.2em orange;
+}
+/* AND FOCUS */
+
+
+.navbar {
+    background: rgba(41, 63, 85, 0.5);
+}
+
+.nav-item {
+    background: rgba(41, 63, 85, 0.5);
+    border-radius: 10px;
+    margin-bottom: .2rem;
+}
+
+.nav-item:hover {
+    background: rgba(41, 63, 85, 0.5);
+    text-align: center;
+    transition: .8s;
+}
+
+.active {
+    color: white;
+    font-weight: bold;
+}
+
+/* menu */
+.nav-link,
+.nav-link.nav-link.active {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.nav-link:hover,
+.nav-link.nav-link.active:hover {
+    color: white;
+}
+/* and menu */
+
+
+.navbar-toggler {
+    background: white;
+}
+
+.navbar-toggler:focus,
+btn-close:focus {
+    background: orange;
+}
+
+
+.offcanvas-title {
+    color: orange;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.2em orange;
+}
+
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: 0;
+    height: 2px;
+    background-color: rgba(138, 144, 202, 0.24);
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before,
+.nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+}
+
+/* ALM */
+.offcanvas-header {
+    background: #3e467033;
+    border-bottom: 1px solid white;
+}
+    .offcanvas-body {
+        background: rgba(41, 63, 85, 0.5);
+    }
+
+    
+
+}
