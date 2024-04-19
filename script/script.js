@@ -1,9 +1,15 @@
-const btnMobile = document.getElementById("btn-mobile");
+const botoesMenu = [
+    document.getElementById("btn-inicio"),
+    document.getElementById("btn-sobre"),
+    document.getElementById("btn-habilidades"),
+    document.getElementById("btn-projetos"),
+    document.getElementById("btn-contatos")
+];
 
-function toggleMenu(event) {
-    // event.preventDefault();
-    const nav = document.getElementById("nav");
-    nav.classList.toggle("active");
+const offCanvasNavbar = document.getElementById("offcanvasNavbar");
+
+function fecharOffcanvas() {
+    offCanvasNavbar.classList.remove("show");
 }
 
-btnMobile.addEventListener("click", toggleMenu);
+botoesMenu.forEach(botao => botao.addEventListener("click", fecharOffcanvas));
